@@ -20,5 +20,5 @@ A versatile Discord chatbot built with JavaScript, designed to handle user queri
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Yudhishthirr/discord-bot.git
 
