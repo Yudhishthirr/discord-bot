@@ -1,0 +1,6 @@
+$ node gemini_response.js
+.The video starts with a woman holding a piece of paper and talking to the camera.
+She claims that if she folds the paper 42 times, it will be thick enough to reach the moon. 
+The woman suggests that the viewers pause the video and take 5 seconds to think about how thick the paper would be
+after being folded 42 times. The woman then explains that the paper will not actually reach the moon, as it will not be thick enough. 
+The woman says that the purpose of the video is to illustrate the power of exponentials.
