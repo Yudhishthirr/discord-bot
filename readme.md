@@ -2,6 +2,7 @@
 
 A versatile Discord chatbot built with JavaScript, designed to handle user queries, analyze images, and summarize videos. It leverages the Gemini-Flash model to provide insightful interactions and multimedia processing.
 
+![Chatbot Screenshot](image/images.png)
 ## Tech Used
 
 - **JavaScript**: Primary language for developing the bot.
