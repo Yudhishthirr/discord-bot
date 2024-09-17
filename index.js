@@ -14,12 +14,20 @@ const client = new Client(
     }
 );
 
-client.on("messageCreate",(message)=>{
+client.on("messageCreate",async(message)=>{
     if(message.author.bot) return;
-    message.reply({
-        content:"Hi From From ChatBot",
-    })
-    // console.log(message.content)
+    try {
+        await message.channel.sendTyping();
+        const userMessage =message.content;
+        const response  = await genrative_chat(userMessage)
+        message.reply({
+            content:`${response}`,
+        })
+    } catch (error) {
+        message.reply({
+            content:`Failed to message: ${error}`,
+        })
+    }
 
 client.on("interactionCreate",async (interaction)=>{
     // console.log(interaction);
